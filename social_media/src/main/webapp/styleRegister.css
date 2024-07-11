@@ -1,0 +1,196 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+    color:rgb(212, 169, 248);
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+}
+
+body{
+	background-image: url("images/bg.jpg");
+    background-size: cover;
+}
+
+.centerBox h1{
+    margin-bottom: 4vh;
+}
+
+.mainContainer{
+	display: flex;
+	justify-content:space-evenly;
+	align-items: center;
+	height: 100vh;
+}
+
+.centerBox{
+    /* border: 2px solid yellow; */
+	height: 100vh;
+    border-radius: 30px;
+    padding: 40px 38px;
+    margin-right: 5vw;
+}
+
+.loginEmailSection{
+    display: flex;
+    flex-direction: column;
+    margin: 5px 0px;
+}
+
+.registerEmailSection{
+    display: flex;
+    flex-direction: column;
+    margin: 5px 0px;
+}
+
+.loginPasswordSection{
+    display: flex;
+    flex-direction: column;
+    margin: 18px 0px;
+}
+
+.registerPasswordSection{
+    display: flex;
+    flex-direction: column;
+    margin: 18px 0px;
+}
+
+label{
+    font-size: 18.5px;
+    margin-bottom: 4px;
+}
+
+input {
+    padding: 7px;
+    width: 120%;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: rgb(234, 220, 248);
+    color: #000;
+}
+
+#loginBtn{
+    width: 120%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    background-color: rgb(97, 85, 102);
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#registerBtn{
+    width: 120%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    background-color: rgb(97, 85, 102);
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#loginBtn:hover{
+    background-color: rgb(71, 51, 92);
+}
+
+#registerBtn:hover{
+    background-color: rgb(71, 51, 92);
+}
+
+#problemBtn{
+    width: 120%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    background-color: rgb(71, 51, 92);
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+}
+
+#problemBtn:hover{
+    background-color: rgb(186, 186, 186);
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+}
+
+.btnGroup{
+    margin: 40px 0px;
+}
+
+#loginLink {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    margin-top: 20px;
+    margin-left: 50%;
+    transition: color 0.3s ease;
+}
+
+#loginLink:hover {
+    color: rgb(186, 186, 186);
+}
+
+.registerProfilePictureSection {
+    display: flex;
+    flex-direction: column;
+    margin: 18px 10px;
+    text-align: left;
+}
+
+.registerProfilePictureSection label {
+    font-size: 18.5px;
+    margin-bottom: 8px;
+}
+
+.registerProfilePictureSection input[type="file"] {
+    padding: 5px 10px;
+    height: 48px;
+    font-size: 15px;
+    background-color: rgb(234, 220, 248);
+    border: 2px solid rgba(234, 220, 248, 0.8);
+    border-radius: 20px;
+    color: #333;
+    cursor: pointer;
+    transition: background-color 0.3s ease, border 0.3s ease;
+}
+
+.registerProfilePictureSection input[type="file"]:hover {
+    background-color: rgb(212, 169, 248);
+    border: 2px solid rgb(212, 169, 248);
+}
+
+.registerProfilePictureSection input[type="file"]::-webkit-file-upload-button {
+    visibility: hidden;
+}
+
+.registerProfilePictureSection input[type="file"]::before {
+    content: 'Choose File';
+    display: inline-block;
+    background: rgb(97, 85, 102);
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    outline: none;
+    border-radius: 20px;
+    white-space: nowrap;
+    -webkit-user-select: none;
+    cursor: pointer;
+    text-align: center;
+    font-size: 15px;
+    transition: background-color 0.3s ease;
+}
+
+.registerProfilePictureSection input[type="file"]:hover::before {
+    background-color: rgb(71, 51, 92);
+}
