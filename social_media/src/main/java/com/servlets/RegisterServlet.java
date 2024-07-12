@@ -45,6 +45,8 @@ public class RegisterServlet extends HttpServlet {
         // Get the profile picture part
         Part filePart = request.getPart("registerProfilePicture");
         byte[] profilePicture = null;
+
+        // profilepicture storage
         
         if (filePart != null) {
             // Convert file part to byte array
