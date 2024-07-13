@@ -63,7 +63,7 @@ public class RegisterServlet extends HttpServlet {
             user.setUsername(un);
             user.setPassword(pw);
             user.setEmail(email);
-            user.setProfilePicture(profilePicture);  // Set the profile picture
+            user.setProfilePicture(profilePicture);
 
             UserService uService = new UserServiceImpl();
             uService.userSignup(user);
