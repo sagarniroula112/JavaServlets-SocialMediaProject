@@ -16,7 +16,6 @@ public class UserServiceImpl implements UserService{
 			Statement stm = DB.dbConnect().createStatement();
 			stm.execute(sql);
 		} catch (SQLException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 	}
@@ -32,7 +31,6 @@ public class UserServiceImpl implements UserService{
 				return true;
 			}
 		} catch (SQLException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 		return false;
