@@ -38,7 +38,7 @@ public class UserServiceImpl implements UserService{
 
 	@Override
 	public void deleteUser(int id) {
-		// TODO Auto-generated method stub
+		
 		
 	}
 	
