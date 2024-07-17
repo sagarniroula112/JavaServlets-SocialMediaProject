@@ -133,7 +133,6 @@
                     <button class="commentBtn">Comment</button>
                 </div>
             </div>
-            <!-- Add more posts here -->
         </div>
     </div>
 </body>
