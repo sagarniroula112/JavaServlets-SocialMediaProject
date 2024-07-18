@@ -1,14 +1,12 @@
 package com.model;
 
 public class User {
-	//instance variables
 	private int id;
 	private String username;
 	private String password;
 	private String email;
 	private byte[] profilePicture;
 	
-	//instance methods
 	public int getId() {
 		return id;
 	}
