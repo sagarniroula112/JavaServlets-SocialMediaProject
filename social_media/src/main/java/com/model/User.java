@@ -8,6 +8,7 @@ public class User {
 	private String email;
 	private byte[] profilePicture;
 	
+	//instance methods
 	public int getId() {
 		return id;
 	}
