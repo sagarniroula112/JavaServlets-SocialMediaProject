@@ -1,6 +1,7 @@
 package com.model;
 
 public class User {
+	//instance variables
 	private int id;
 	private String username;
 	private String password;
