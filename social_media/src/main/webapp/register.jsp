@@ -9,7 +9,7 @@
 </head>
 <body>
 	<div class="mainContainer">
-        <h1>Welcome to BeeHive....</h1>
+        <h1>Welcome to BeeHive...</h1>
         <div class="centerBox">
             <h1>Register</h1>
             <form action="RegisterServlet" method="POST" enctype="multipart/form-data">
