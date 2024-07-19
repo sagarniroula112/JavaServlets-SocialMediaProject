@@ -7,16 +7,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BeeHive Login</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="stylesheets/style.css">
 </head>
 
 <body>
     <div class="mainContainer">
-        <h1>Welcome to BeeHive...</h1>
+        <h1>Welcome to BeeHive Socials</h1>
+        <div class="vertBar"></div>
         <div class="centerBox">
             <h1>Log in</h1>
             <form action="LoginServlet" method="POST">
-            <h3>${message}</h3>
+            <!-- <h3>${message}</h3> -->
                 <div class="loginInputSection">
                     <div class="loginUsernameSection">
                         <label for="loginUsername">Username</label>

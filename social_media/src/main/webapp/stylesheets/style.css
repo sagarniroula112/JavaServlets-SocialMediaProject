@@ -6,17 +6,29 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-    color:rgb(212, 169, 248);
+    color:rgb(140, 16, 243);
     font-family: "Edu AU VIC WA NT Hand", cursive;
 }
 
 body{
-	background-image: url("images/bg.jpg");
+	background-image: url("bg2.jpg");
     background-size: cover;
+}
+
+.vertBar {
+    border: 2px solid rgb(83, 23, 147);
+    height: 90vh;
+    width: 2px; /* Adjust the width as needed */
+    margin: auto; /* Center the vertical bar */
+    position: absolute;
+    top: 5vh; /* Center vertically by offsetting 10% from the top */
+    left: 50%; /* Center horizontally */
+    transform: translateX(-50%); /* Adjust for centering the bar */
 }
 
 .centerBox h1{
     margin-bottom: 4vh;
+    color: rgb(39 51 148);
 }
 
 .mainContainer{
@@ -46,6 +58,8 @@ body{
 }
 
 label{
+    font-weight: 440;
+    color:#440bb6;
     font-size: 18.5px;
     margin-bottom: 4px;
 }
@@ -56,7 +70,7 @@ input {
     border: none;
     border-radius: 5px;
     font-size: 16px;
-    background-color: rgb(234, 220, 248);
+    background-color: rgb(207, 221, 250);
     color: #000;
 }
 
@@ -66,7 +80,7 @@ input {
     border: none;
     border-radius: 5px;
     font-size: 18px;
-    background-color: rgb(97, 85, 102);
+    background-color: rgb(129, 128, 129);
     color: #fff;
     cursor: pointer;
     transition: background-color 0.3s ease;
@@ -90,7 +104,7 @@ input {
 }
 
 #problemBtn:hover{
-    background-color: rgb(186, 186, 186);
+    background-color: rgb(204, 203, 203);
     cursor: pointer;
     color: rgb(0, 0, 0);
 }
@@ -100,7 +114,7 @@ input {
 }
 
 #registerLink {
-    color: #fff;
+    color: #492c82;
     text-decoration: none;
     display: block;
     margin-top: 20px;
@@ -109,5 +123,5 @@ input {
 }
 
 #registerLink:hover {
-    color: rgb(186, 186, 186);
+    color: rgb(109, 79, 240);
 }

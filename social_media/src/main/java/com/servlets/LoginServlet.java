@@ -42,6 +42,7 @@ public class LoginServlet extends HttpServlet {
 		
 		if(uService.userLogin(loginUsername, loginPassword)) {
 			request.setAttribute("uname", loginUsername);
+			request.getRequestDispatcher("postPage.jsp").forward(request, response);
 			
 		}else {
 			request.setAttribute("message", "User not found!");

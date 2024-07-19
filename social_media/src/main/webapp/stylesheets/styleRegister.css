@@ -6,16 +6,26 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-    color:rgb(212, 169, 248);
+    color:rgb(140, 16, 243);
     font-family: "Edu AU VIC WA NT Hand", cursive;
 }
 
 body{
-	background-image: url("images/bg.jpg");
+	background-image: url("bg2.jpg");
     background-size: cover;
 }
 
-<!-- for top heading
+.vertBar {
+    border: 2px solid rgb(83, 23, 147);
+    height: 90vh;
+    width: 2px; /* Adjust the width as needed */
+    margin: auto; /* Center the vertical bar */
+    position: absolute;
+    top: 5vh; /* Center vertically by offsetting 10% from the top */
+    left: 50%; /* Center horizontally */
+    transform: translateX(-50%); /* Adjust for centering the bar */
+}
+
 .centerBox h1{
     margin-bottom: 4vh;
 }
@@ -31,7 +41,7 @@ body{
 	height: 100vh;
     border-radius: 30px;
     padding: 40px 38px;
-    margin-right: 5vw;
+    margin-right: -3vw;
 }
 
 .loginEmailSection{
@@ -59,8 +69,10 @@ body{
 }
 
 label{
+	font-weight: 440;
     font-size: 18.5px;
     margin-bottom: 4px;
+    color: #440bb6;
 }
 
 input {
@@ -69,7 +81,7 @@ input {
     border: none;
     border-radius: 5px;
     font-size: 16px;
-    background-color: rgb(234, 220, 248);
+    background-color: rgb(207, 221, 250);
     color: #000;
 }
 
@@ -129,16 +141,16 @@ input {
 }
 
 #loginLink {
-    color: #fff;
+    color: #492c82;
     text-decoration: none;
     display: block;
-    margin-top: 20px;
-    margin-left: 50%;
+    margin-top: -10px;
+    margin-left: 35%;
     transition: color 0.3s ease;
 }
 
 #loginLink:hover {
-    color: rgb(186, 186, 186);
+    color: rgb(109, 79, 240);
 }
 
 .registerProfilePictureSection {
@@ -157,7 +169,7 @@ input {
     padding: 5px 10px;
     height: 48px;
     font-size: 15px;
-    background-color: rgb(234, 220, 248);
+    background-color: rgb(207, 221, 250);
     border: 2px solid rgba(234, 220, 248, 0.8);
     border-radius: 20px;
     color: #333;

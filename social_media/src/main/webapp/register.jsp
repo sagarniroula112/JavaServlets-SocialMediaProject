@@ -5,11 +5,12 @@
 <head>
 <meta charset="UTF-8">
 <title>BeeHive register</title>
-<link rel="stylesheet" href="styleRegister.css">
+<link rel="stylesheet" href="stylesheets/styleRegister.css">
 </head>
 <body>
 	<div class="mainContainer">
-        <h1>Welcome to BeeHive...</h1>
+        <h1>Welcome to BeeHive Socials</h1>
+        <div class="vertBar"></div>
         <div class="centerBox">
             <h1>Register</h1>
             <form action="RegisterServlet" method="POST" enctype="multipart/form-data">
