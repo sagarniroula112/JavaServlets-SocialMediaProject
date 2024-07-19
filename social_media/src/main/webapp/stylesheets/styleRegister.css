@@ -15,6 +15,7 @@ body{
     background-size: cover;
 }
 
+<<<<<<< HEAD:social_media/src/main/webapp/stylesheets/styleRegister.css
 .vertBar {
     border: 2px solid rgb(83, 23, 147);
     height: 90vh;
@@ -26,6 +27,8 @@ body{
     transform: translateX(-50%); /* Adjust for centering the bar */
 }
 
+=======
+>>>>>>> 8bf1612505ff3d0677c3818213c01b2cb8eb7dbf:social_media/src/main/webapp/styleRegister.css
 .centerBox h1{
     margin-bottom: 4vh;
 }
