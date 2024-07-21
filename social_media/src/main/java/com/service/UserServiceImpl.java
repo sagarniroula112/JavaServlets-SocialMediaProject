@@ -8,7 +8,7 @@ import com.db.DB;
 import com.model.User;
 
 public class UserServiceImpl implements UserService{
-
+	// user service implementations
 	@Override
 	public void userSignup(User u) {
 		String sql = "insert into user(username, password, email, profilePicture) values('"+u.getUsername()+"', '"+u.getPassword()+"', '"+u.getEmail()+"', '"+u.getProfilePicture()+"')";
