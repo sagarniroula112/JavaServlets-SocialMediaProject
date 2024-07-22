@@ -39,7 +39,7 @@
     </div>
 
     <div class="border">
-        <h1>See what your friends share below!</h1>
+        <h1>View what your friends share below!</h1>
     </div>
     
     
