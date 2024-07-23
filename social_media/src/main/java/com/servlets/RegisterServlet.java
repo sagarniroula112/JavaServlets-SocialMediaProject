@@ -42,7 +42,7 @@ public class RegisterServlet extends HttpServlet {
 	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
 	 */
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        // Get the profile picture part
+        
         Part filePart = request.getPart("registerProfilePicture");
         byte[] profilePicture = null;
         
