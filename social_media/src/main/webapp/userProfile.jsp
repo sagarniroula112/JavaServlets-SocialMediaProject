@@ -14,8 +14,8 @@
             <h1 id="topHeading">Your Information</h1>
             <div class="imgSection">
                 <img id="profileImg" src="stylesheets/boy.png" alt="Your profile picture here..." id="profilePic">
-                <h2 id="userName">Nick DiGiovanni</h2>
-                <h4 id="userEmail">nickdigiovanni21@gmail.com</h4>
+                <h2 id="userName">Gordon Ramsay</h2>
+                <h4 id="userEmail">gordonramsay@gmail.com</h4>
             </div>
             <div class="bioSection">
                 <p><strong>Bio:</strong> <span id="userBio">Nick is a software engineer with over 5 years of experience in full-stack development. He loves coding, hiking, and exploring new technologies.</span></p>
